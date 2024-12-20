@@ -1,4 +1,4 @@
-# Project
+# Azure OpenAI Model Evaluation
 
 In the dynamic field of AI, integrating Generative AI Operations (GenAIOps) is revolutionizing AI application development. Establishing a robust evaluation framework is essential to ensure AI outputs are reliable and relevant. Evaluators play a crucial role in assessing content risks and undesirable behaviors, helping teams address quality, safety, and security concerns throughout the AI lifecycle.
 
@@ -84,7 +84,7 @@ This involves assessing the different AOAI base model using same prompt for accu
 
 ## NLP based mdoel eveluation 
 Uisng traditional machine learning approaches to score and measures the similarity by shared tokens between the generated text and the ground truth, focusing on both precision and recall.
-![AI quality NLP metrics](media/media/nlp_assist_metrics.png)
+![AI quality NLP metrics](media/nlp_assist_metrics.png)
 
 
 ## Contributing
