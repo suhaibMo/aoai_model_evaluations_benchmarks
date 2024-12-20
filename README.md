@@ -73,7 +73,16 @@ AZURE_OPENAI_GPT4o-mini_API_KEY=""
 
 ## AI-assisted: Groundedness
 For groundedness we use Prompt-based groundedness using your own model deployment to output a score and an explanation for the score is currently supported in all regions.
-![Groundedness](media/ai_assist_groundedness.png)
+```
+Class GroundednessProEvaluator: This is an experimental class, and may change at any time. Please see https://aka.ms/azuremlexperimental for more information.
+{'gpt_groundedness': 5.0,
+ 'groundedness': 5.0,
+ 'groundedness_reason': 'The response accurately and completely answers the '
+                        'query using the information provided in the context.'}
+{'groundedness_pro_label': True,
+ 'groundedness_pro_reason': 'All Contents are grounded'}
+```
+
 For more information see the [Monitor metrics for generative AI] https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-metrics-built-in?tabs=warning
 
 ![Quality evaluation process](media/quality-evaluation-diagram.png)
