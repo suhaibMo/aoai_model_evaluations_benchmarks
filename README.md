@@ -49,6 +49,12 @@ $ pip install -r requirements.txt
 
 Set up environmentals variables for Azure OpenAI models deployments associated keys in the credentials.env
 ```
+AZURE_SUBSCRIPTION_ID=""
+AZURE_TENANT_ID=""
+AZURE_RESOURCE_GROUP=""
+AZURE_PROJECT_NAME=""
+
+# AI assitant Judge (GPT4o prerferbaly as this most learned and accurate)
 AZURE_OPENAI_ENDPOINT=""
 AZURE_OPENAI_API_KEY=""
 AZURE_OPENAI_DEPLOYMENT=""
@@ -63,7 +69,7 @@ AZURE_OPENAI_GPT4_ENDPOINT=""
 AZURE_OPENAI_GPT4_API_KEY=""
 
 # Model3
-AZURE_OPENAI_GPT4o_ENDPOINT="
+AZURE_OPENAI_GPT4o_ENDPOINT=""
 AZURE_OPENAI_GPT4o_API_KEY=""
 
 # Model4
@@ -87,11 +93,11 @@ For more information see the [Monitor metrics for generative AI] https://learn.m
 
 ![Quality evaluation process](media/quality-evaluation-diagram.png)
 
-## Base models performance and quality eveluation 
+## AOAI base models performance and quality eveluation 
 This involves assessing the different AOAI base model using same prompt for accuracy, groundedness, and relevance of generated content using robust AI-assisted metrics.
 ![AOAI model performance and quality evaluators](media/base_model_compare_ai_assist.png)
 
-## NLP based mdoel eveluation 
+## NLP based model evaluation 
 Uisng traditional machine learning approaches to score and measures the similarity by shared tokens between the generated text and the ground truth, focusing on both precision and recall.
 ![AI quality NLP metrics](media/nlp_assist_metrics.png)
 
