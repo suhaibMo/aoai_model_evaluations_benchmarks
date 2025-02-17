@@ -78,7 +78,7 @@ AZURE_OPENAI_GPT4o-mini_API_KEY=""
 ```
 ## AOAI model metrics evaluation navigator
 
-![Metrics slection process](media/Model_Evaluation_Navigator.png)
+![Metrics selection process](media/Model_Evaluation_Navigator.png)
 
 ## AI-assisted: Groundedness
 For groundedness we use Prompt-based groundedness using your own model deployment to output a score and an explanation for the score is currently supported in all regions.
