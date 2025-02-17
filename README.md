@@ -36,8 +36,8 @@ Explore Azure AI Evaluation SDK as demonstrated in the Evaluate Model Endpoints 
 
 Create a virtual Python environment of you choice. To create one using conda, run the following command
 ```
-conda create -n cloud-evaluation
-conda activate cloud-evaluation
+conda create -n model-evaluation
+conda activate model-evaluation
 ```
 
 ### Building and running
@@ -76,6 +76,9 @@ AZURE_OPENAI_GPT4o_API_KEY=""
 AZURE_OPENAI_GPT4o-mini_ENDPOINT=""
 AZURE_OPENAI_GPT4o-mini_API_KEY=""
 ```
+## AOAI model metrics evaluation navigator
+
+![Metrics slection process](media/Model_Evaluation_Navigator.png)
 
 ## AI-assisted: Groundedness
 For groundedness we use Prompt-based groundedness using your own model deployment to output a score and an explanation for the score is currently supported in all regions.
@@ -95,6 +98,7 @@ For more information see the [Monitor metrics for generative AI] https://learn.m
 
 ## AOAI base models performance and quality eveluation 
 This involves assessing the different AOAI base model using same prompt for accuracy, groundedness, and relevance of generated content using robust AI-assisted metrics.
+![Comparative AOAI model evaluation framework](media/media/Concurrent_GenAI_Model_Evaluation.png)
 ![AOAI model performance and quality evaluators](media/base_model_compare_ai_assist.png)
 
 ## NLP based model evaluation 
