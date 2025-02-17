@@ -98,7 +98,7 @@ For more information see the [Monitor metrics for generative AI] https://learn.m
 
 ## AOAI base models performance and quality eveluation 
 This involves assessing the different AOAI base model using same prompt for accuracy, groundedness, and relevance of generated content using robust AI-assisted metrics.
-![Comparative AOAI model evaluation framework](media/media/Concurrent_GenAI_Model_Evaluation.png)
+![Comparative AOAI model evaluation framework](media/Concurrent_GenAI_Model_Evaluation.png)
 ![AOAI model performance and quality evaluators](media/base_model_compare_ai_assist.png)
 
 ## NLP based model evaluation 
